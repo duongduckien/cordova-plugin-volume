@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-volume",
+  "version": "0.0.1",
+  "description": "Control volume of device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongduckien/cordova-plugin-volume.git"
+  },
+  "keywords": [
+    "ionic",
+    "cordova",
+    "plugin",
+    "volume"
+  ],
+  "author": "Duong Kien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongduckien/cordova-plugin-volume/issues"
+  },
+  "homepage": "https://github.com/duongduckien/cordova-plugin-volume#readme"
+}
