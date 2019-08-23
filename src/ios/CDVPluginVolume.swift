@@ -1,7 +1,7 @@
 
 import CoreLocation
 
-@objc(volume) class volume : CDVPlugin {
+@objc(CDVPluginVolume) class CDVPluginVolume : CDVPlugin {
 
 
     override func pluginInitialize() {

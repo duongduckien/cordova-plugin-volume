@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-volume" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>volume</name>
-    <js-module name="volume" src="www/volume.js">
-        <clobbers target="volume" />
+    <name>CDVPluginVolume</name>
+    <js-module name="CDVPluginVolume" src="www/CDVPluginVolume.js">
+        <clobbers target="CDVPluginVolume" />
     </js-module>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="volume">
-                <param name="ios-package" value="volume" />
+            <feature name="CDVPluginVolume">
+                <param name="ios-package" value="CDVPluginVolume" />
             </feature>
         </config-file>
-        <source-file src="src/ios/volume.swift" />
+        <source-file src="src/ios/CDVPluginVolume.swift" />
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="volume">
-                <param name="android-package" value="volume.volume" />
+            <feature name="CDVPluginVolume">
+                <param name="android-package" value="CDVPluginVolume.CDVPluginVolume" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml">
         </config-file>
-        <source-file src="src/android/volume.java" target-dir="src/cordova-plugin-volume/volume" />
+        <source-file src="src/android/CDVPluginVolume.java" target-dir="src/cordova-plugin-volume/CDVPluginVolume" />
     </platform>
 </plugin>
