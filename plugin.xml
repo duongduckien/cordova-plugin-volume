@@ -10,8 +10,7 @@
                 <param name="ios-package" value="CDVPluginVolume" onload="true" />
             </feature>
         </config-file>
-        <header-file src="src/ios/CDVPluginVolume.h" />
-        <source-file src="src/ios/CDVPluginVolume.m" />
+        <source-file src="src/ios/CDVPluginVolume.swift" />
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
